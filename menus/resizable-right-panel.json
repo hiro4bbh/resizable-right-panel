@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle resizable-right-panel",
+        "command": "resizable-right-panel:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "resizable-right-panel",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "resizable-right-panel:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
