@@ -1,10 +1,11 @@
 {
   "name": "resizable-right-panel",
   "main": "./lib/resizable-right-panel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An example package for creating resizable right panels",
   "keywords": [
-    "user-interface", "resizable-panel"
+    "user-interface",
+    "resizable-panel"
   ],
   "activationCommands": {
     "atom-workspace": "resizable-right-panel:toggle"
@@ -14,6 +15,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
