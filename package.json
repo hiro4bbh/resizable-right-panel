@@ -1,14 +1,14 @@
 {
   "name": "resizable-right-panel",
   "main": "./lib/resizable-right-panel",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "An example package for creating resizable right panels",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "resizable-right-panel:toggle"
   },
-  "repository": "https://github.com/atom/resizable-right-panel",
+  "repository": "https://github.com/hiro4bbh/resizable-right-panel",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
