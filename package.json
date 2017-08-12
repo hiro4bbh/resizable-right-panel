@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "An example package for creating resizable right panels",
   "keywords": [
+    "user-interface", "resizable-panel"
   ],
   "activationCommands": {
     "atom-workspace": "resizable-right-panel:toggle"
