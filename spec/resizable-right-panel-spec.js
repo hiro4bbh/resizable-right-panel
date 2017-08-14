@@ -16,7 +16,7 @@ describe('ResizableRightPanel', () => {
   });
 
   describe('when the resizable-right-panel:toggle event is triggered', () => {
-    it('hides and shows the modal panel', () => {
+    it('hides and shows the right panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
       expect(workspaceElement.querySelector('.resizable-right-panel')).not.toExist();
@@ -35,7 +35,7 @@ describe('ResizableRightPanel', () => {
         let resizableRightPanelElement = workspaceElement.querySelector('.resizable-right-panel');
         expect(resizableRightPanelElement).toExist();
 
-        let resizableRightPanelPanel = atom.workspace.panelForItem(resizableRightPanelElement);
+        let resizableRightPanelPanel = atom.workspace.getActivePaneItem();
         expect(resizableRightPanelPanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'resizable-right-panel:toggle');
         expect(resizableRightPanelPanel.isVisible()).toBe(false);
